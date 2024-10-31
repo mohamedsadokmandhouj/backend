@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken'
-import Users from '../models/Users.js'
+import Users from '../models/users.cjs'
 
 
 // Generate a Json Web Token

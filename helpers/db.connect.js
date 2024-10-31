@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const URI = process.env.DB_URI;
 
-console.log('URI:', URI);  // Check if URI is being logged correctly
+// console.log('URI:', URI);  // Check if URI is being logged correctly
 
 const connectToMongo = async () => {
     try {

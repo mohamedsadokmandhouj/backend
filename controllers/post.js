@@ -1,4 +1,4 @@
-import Post from '../models/Posts.js'
+import Post from '../models/posts.cjs'
 
 export const createPost = async (req, res) => {
   const newPost = new Post(req.body)
