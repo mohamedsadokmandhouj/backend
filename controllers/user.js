@@ -1,6 +1,6 @@
 
 import bcrypt from 'bcrypt'
-import Users from '../models/Users.js';
+import Users from '../models/users.js';
 
 import asyncHandler from 'express-async-handler'
 import { generateAccessToken } from '../utils/authMiddleware.js';
